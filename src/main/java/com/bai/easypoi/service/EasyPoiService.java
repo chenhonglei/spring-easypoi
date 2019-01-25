@@ -7,14 +7,12 @@ import com.bai.easypoi.excel.LineExcelEntity;
 import com.bai.easypoi.response.CommonResponse;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 import java.util.Map;
 
 @Service
-@Transactional(readOnly = true)
 public class EasyPoiService {
 
 
